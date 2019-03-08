@@ -2,5 +2,8 @@
   "name": "bandforage",
   "devDependencies": {
     "lerna": "^3.13.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
