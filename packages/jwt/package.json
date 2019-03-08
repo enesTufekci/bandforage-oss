@@ -1,8 +1,9 @@
 {
   "name": "@bandforage/jwt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "lib": "index.js",
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -21,5 +22,5 @@
   "dependencies": {
     "jsonwebtoken": "^8.5.0"
   },
-  "gitHead": "14d8126c2eff7c15157b1367124ece43b57a6f6a"
+  "gitHead": "74643baf4d9c778e803d8efe7c23f3187af5c8f9"
 }
