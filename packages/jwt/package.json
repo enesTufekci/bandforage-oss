@@ -1,6 +1,6 @@
 {
   "name": "@bandforage/jwt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "lib": "index.js",
   "scripts": {
@@ -17,6 +17,5 @@
   },
   "dependencies": {
     "jsonwebtoken": "^8.5.0"
-  },
-  "gitHead": "f5091271f5bf585a615e7e0255533aabddf5c91c"
+  }
 }
