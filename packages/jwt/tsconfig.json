@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "rootDir": "src",
-    "target": "es6",
+    "target": "es2016",
     "module": "commonjs",
-    "lib": ["es6", "es2017", "esnext.asynciterable"],
+    "lib": ["es2016"],
     "sourceMap": true,
     "outDir": "./lib",
     "moduleResolution": "node",
