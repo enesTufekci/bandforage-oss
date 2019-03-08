@@ -2,9 +2,8 @@
   "name": "bandforage-jwt",
   "version": "1.0.10",
   "description": "",
-  "lib": "lib/index.js",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "module": "lib/index.js",
   "files": [
     "lib"
   ],
