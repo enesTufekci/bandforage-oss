@@ -22,5 +22,8 @@
   "dependencies": {
     "jsonwebtoken": "^8.5.0"
   },
-  "gitHead": "83a53b148bb57490cdf176e234972aba5a4d24d3"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "a73dea0e0322e06c0fd773329decae5c8852b115"
 }
