@@ -1,5 +1,5 @@
 {
-  "name": "@bandforage/jwt",
+  "name": "bandforage-jwt",
   "version": "1.0.5",
   "description": "",
   "lib": "index.js",
@@ -22,8 +22,5 @@
   "dependencies": {
     "jsonwebtoken": "^8.5.0"
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "a73dea0e0322e06c0fd773329decae5c8852b115"
+  "gitHead": "e6c2199d6fdbbf9d05992032e3ce988d8ed8bd25"
 }
