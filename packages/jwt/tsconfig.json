@@ -25,8 +25,9 @@
     "baseUrl": ".",
     "paths": {
       "*": ["src/*"]
-    }
+    },
+    "types": ["mocha", "node"]
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "lib", "**/*.test.ts"],
   "include": ["./src/**/*.ts"]
 }
