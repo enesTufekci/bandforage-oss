@@ -1,7 +1,7 @@
 import * as jsonWebToken from 'jsonwebtoken'
 import { Request } from 'express'
 
-interface IJwt {}
+interface IJwt { }
 
 class Jwt implements IJwt {
   private secret: string = 'secret'
@@ -39,7 +39,7 @@ class Jwt implements IJwt {
 
   async verify(request: Request) {
     const secret = this.secret
-    const token = request.headers['authorization']
+    const token: string = request.headers['authorization'] || request.cookies['Authorization']
     if (token) {
       return await new Promise((resolve, reject) => {
         jsonWebToken.verify(
